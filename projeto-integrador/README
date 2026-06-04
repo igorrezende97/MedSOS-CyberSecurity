@@ -1,0 +1,13 @@
+# MedSOS - Projeto Integrador II
+
+Plataforma de gestão de logística humanitária para medicamentos.
+
+## Estrutura do Projeto
+- `docs/`: Documentação de arquitetura e visão geral.
+- `projeto-integrador/`: 
+  - `database/`: Script de criação do banco de dados (SQL).
+  - `docs/`: Cronograma, Requisitos e Modelagem.
+
+## Como utilizar
+1. O banco de dados está estruturado em SQLite.
+2. Utilize o arquivo `schema.sql` para inicializar a estrutura no seu ambiente.
