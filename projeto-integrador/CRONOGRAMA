@@ -1,0 +1,12 @@
+# Cronograma de Execução - Projeto Integrador (UNIVESP)
+
+## Fases do Projeto
+- [ ] **Fase 1: Levantamento de Requisitos** (Definição do problema de saúde e fluxos de dados).
+- [ ] **Fase 2: Modelagem e Segurança** (Definição da arquitetura e dos controles de acesso).
+- [ ] **Fase 3: Desenvolvimento do Protótipo** (Implementação do sistema funcional).
+- [ ] **Fase 4: Validação e Testes** (Testes de segurança e usabilidade).
+- [ ] **Fase 5: Documentação Final** (Relatório para entrega na UNIVESP).
+
+## Próximos Passos
+1. Definir a delimitação do escopo.
+2. Mapear os requisitos de dados sensíveis conforme a LGPD.
