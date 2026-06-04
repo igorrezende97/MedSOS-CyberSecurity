@@ -1,0 +1,21 @@
+# Requisitos do Sistema - MedSOS
+
+Este documento detalha os requisitos funcionais e não funcionais para a plataforma *MedSOS*, focando na otimização da logística humanitária e na gestão de doações de medicamentos em situações de emergência[cite: 1].
+
+## 1. Requisitos Funcionais (RFs)
+Os requisitos funcionais definem as ações que o sistema deve executar para atender ao seu objetivo principal[cite: 1].
+
+*   **RF01 - Gestão de Acessos:** O sistema deve permitir o cadastro e a autenticação de diferentes perfis de usuários (doadores e instituições receptoras).
+*   **RF02 - Cadastro de Recursos:** O sistema deve permitir o registro, edição e exclusão de medicamentos, incluindo dados como nome, quantidade e validade.
+*   **RF03 - Controle de Estoque:** O sistema deve manter um controle centralizado do estoque de medicamentos disponíveis.
+*   **RF04 - Mapeamento de Demandas:** O sistema deve permitir que instituições registrem e visualizem demandas de medicamentos por região geográfica.
+*   **RF05 - Organização da Distribuição:** O sistema deve fornecer mecanismos para organizar o fluxo de distribuição entre o que foi doado e o que foi solicitado.
+*   **RF06 - Painel Geral (Dashboard):** O sistema deve exibir indicadores em tempo real sobre doadores ativos, instituições, estoque de medicamentos e demandas abertas[cite: 1].
+
+## 2. Requisitos Não Funcionais (RNFs)
+Os requisitos não funcionais garantem a qualidade e a segurança da solução.
+
+*   **RNF01 - Usabilidade:** A interface deve ser simples, intuitiva e responsiva (focada em dispositivos móveis), garantindo agilidade em cenários de alta pressão[cite: 1].
+*   **RNF02 - Segurança:** A arquitetura deve estar alinhada às diretrizes da LGPD para proteção de dados sensíveis[cite: 1].
+*   **RNF03 - Performance:** O sistema deve apresentar tempos de resposta rápidos para permitir a tomada de decisão eficiente em contextos emergenciais[cite: 1].
+*   **RNF04 - Disponibilidade:** O sistema deve ser projetado para alta disponibilidade, considerando a natureza crítica das situações de emergência.
