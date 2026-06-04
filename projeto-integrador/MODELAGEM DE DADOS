@@ -1,0 +1,14 @@
+# Modelagem de Dados - MedSOS
+
+Esta seção descreve a estrutura relacional do banco de dados para o MedSOS, visando garantir a integridade dos dados e a eficiência no rastreamento de doações.
+
+## Entidades Principais
+1. **Usuarios:** Armazena dados de doadores e instituições.
+2. **Medicamentos:** Catálogo de itens disponíveis e estoque.
+3. **Demandas:** Registro de necessidades emergenciais por região.
+4. **Distribuicoes:** Registro do vínculo entre a doação e a necessidade (fluxo logístico).
+
+## Diagrama Relacional (Lógico)
+- `Usuarios` (1:N) `Medicamentos`
+- `Usuarios` (1:N) `Demandas`
+- `Demandas` (1:N) `Distribuicoes`
